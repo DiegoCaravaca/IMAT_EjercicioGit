@@ -25,7 +25,7 @@ namespace IMAT_GitTest
         {
            if (y == 0)
             {
-                Console.WriteLine("No se puede dividir por 0");
+                Console.WriteLine($"No se puede dividir por 0. Valores recibidos: numerador = {x}, denominador = {y}");
                 return null;
             }
             else
